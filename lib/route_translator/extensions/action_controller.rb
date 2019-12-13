@@ -18,7 +18,7 @@ module RouteTranslator
 
       yield
     ensure
-      I18n.locale = old_locale if locale_from_url
+      I18n.locale = locale_from_url if locale_from_url
     end
   end
 
